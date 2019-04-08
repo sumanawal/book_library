@@ -1,0 +1,10 @@
+<h1>Go Training</h1>
+
+<h5>Hello {{ .Name }} </h5>
+<h5>
+  {{if .DBStatus}}
+    Database is alive
+  {{else}}
+    Database is dead
+  {{end}}
+</h5>
